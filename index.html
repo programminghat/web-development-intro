@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    <meta name="author" content="Programming Hat">
+    <meta name="description" content="The Cool Yeti website aims to provide
+    Cool Yeti a way to find people to play with or against in video games.">
     <title>Web development practice</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"
+    <!-- this doesn't work currently - not sure why -->
+    <link rel="icon" href="favicon32.png" type="image/x-icon">
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
     <!-- test area -->
@@ -16,6 +21,9 @@
     <h2>H2 My top level heading</h2>
     <h3>H3 My subheading</h3>
     <h4>H4 My sub-subheading</h4>
+    <!-- <p><a href="D:/Electron/web-development-intro/index.html#Bottom" title="Bottom of page">Skip to bottom</a></p>
+      this is better for same page -->
+    <p><a href="#Bottom" title="Bottom of page">Skip to bottom</a></p>
     <p>This is Cool Yeti! He plays games. No, he <strong>dominates</strong> games!</p>
     <p>Cool Yeti wants to make friends - do you want to be Cool Yeti's friend?</p>
     <p>Here are some things Cool Yeti likes to do:</p>
@@ -35,9 +43,9 @@
       <li>Final Fantasy X</li>
     </ol>
 
-    <p><a href="D:/Electron/web-development-intro/yeti-room.html">Here</a> is a link to Cool Yeti's room</p>
+    <p><a id="Bottom" href="D:/Electron/web-development-intro/yeti-room.html" title="Cool Yeti's Room" target="_blank">Here</a> is a link to Cool Yeti's room</p>
+    <p><a href="D:/Electron/web-development-intro/mzn-example.html" title="MZN Example" target="_blank">MZN Example</a></p>
 
     <button>Change user</button>
-    <script src="scripts/main.js"></script>
   </body>
 </html>
